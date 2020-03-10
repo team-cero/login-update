@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="app_name">CulcToGoalset</string>
+    <string name="co2_consumption">CO2 Consumption</string>
+    <string name="goal_setting">Goal Setting</string>
+    <string name="back">Back</string>
+    <string-array name="array1">
+        <item>Hyundai</item>
+        <item>Opel</item>
+        <item>Renault</item>
+        <item>SEAT</item>
+        <item>SKODA</item>
+    </string-array>
+    <string-array name="Hyundai_array">
+        <item>Atos 1.1 Comfort</item>
+        <item>Coupé 2.0 GLS</item>
+        <item>Elantra 2.0 GLS</item>
+    </string-array>
+    <string-array name="Opel_array">
+        <item>Agila 1.2 Edition </item>
+        <item>Astra 1.3 CDTI DPF </item>
+        <item>Combo Combi 1.7 CDTI Sport</item>
+    </string-array>
+    <string-array name="Renault_array">
+        <item>Kangoo Rapid Z.E</item>
+        <item>Laguna 1.5 dCi Expression</item>
+        <item>Twingo TCe 100 Gordini </item>
+    </string-array>
+    <string-array name="SEAT_array">
+        <item>Altea 1.6 Reference </item>
+        <item>Exeo 2.0 TDI Style </item>
+        <item>Ibiza 1.2 12V Signo </item>
+    </string-array>
+    <string-array name="SKODA_array">
+        <item>Citigo 1.0 Ambition</item>
+        <item>Fabia 1.0 TSI Style </item>
+        <item>Karoq 1.5 TSI ACT Style DSG</item>
+    </string-array>
+
+    <string name="sub">Goal Settings</string>
+    <string name="from_main">Your Car\'s CO2 consumption</string>
+</resources>
