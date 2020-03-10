@@ -167,4 +167,13 @@
         android:pathData="M79,19L79,89"
         android:strokeWidth="0.8"
         android:strokeColor="#33FFFFFF" />
+    <path
+        android:width="328dp"
+        android:height="36dp"
+        android:viewportWidth="328"
+        android:viewportHeight="36"
+        android:pathData="M0 0H328V36H0V0Z" />
+    <View
+        android:id="@+id/canvas"
+        android:background="#E5E5E5" />
 </vector>

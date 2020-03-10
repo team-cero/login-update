@@ -39,4 +39,9 @@
 
     <string name="sub">Goal Settings</string>
     <string name="from_main">Your Car\'s CO2 consumption</string>
+    <string name="awesome_">Awesome!</string>
+    <string name="you_ve_alre">You have already taken the first step on your climate journey!</string>
+    <string name="let_s_creat">Lets create your profile</string>
+    <string name="assistive_t">Password must be at least 8 characters</string>
+
 </resources>
