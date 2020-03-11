@@ -5,6 +5,11 @@
 - Emulator  Pixel2 XL API 28
 - OS 4.4 KitKat
 
+### Firebase
+
+March 11, 2020
+Version control issue is so important!!!!! [See this site](https://firebase.google.com/docs/android/setup)
+
 ### Formula reference
 
 - [Co2 emission calculator repo](https://github.com/absambam/Carbon-Footprint-Calculator)
