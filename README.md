@@ -9,6 +9,7 @@
 
 March 11, 2020
 Version control issue is so important!!!!! [See this site](https://firebase.google.com/docs/android/setup)
+[main dex file](https://stackoverflow.com/questions/48249633/errorcannot-fit-requested-classes-in-a-single-dex-file-try-supplying-a-main-dex)
 
 ### Formula reference
 
