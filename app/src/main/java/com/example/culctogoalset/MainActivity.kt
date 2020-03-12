@@ -115,17 +115,17 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
             if (distance.text != null && !distance.text.toString().isEmpty()){
                 val intent = Intent(applicationContext, SubActivity::class.java)
                 val str = distance.text.toString()
-                val brand_result = selectedBrand
-                val model_result = selectedModel
+                val brandResult = selectedBrand
+                val modelResult = selectedModel
                 Log.d("debug", str)
 
                 //save database
 
-                saveCar(brand_result, model_result, str)
+                saveCar(brandResult, modelResult, str)
 
 
-                intent.putExtra(EXTRA_BRAND, brand_result)
-                intent.putExtra(EXTRA_MODEL,model_result)
+                intent.putExtra(EXTRA_BRAND, brandResult)
+                intent.putExtra(EXTRA_MODEL, modelResult)
                 intent.putExtra(EXTRA_DISTANCE, str)
                 startActivityForResult(intent, RESULT_SUBACTIVITY)
                 distance.setText("")
