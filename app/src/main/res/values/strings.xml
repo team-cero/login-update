@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">CulcToGoalset</string>
+    <string name="app_name">Cero App</string>
     <string name="co2_consumption">CO2 Consumption</string>
     <string name="goal_setting">Goal Setting</string>
     <string name="back">Back</string>
@@ -43,5 +43,17 @@
     <string name="you_ve_alre">You have already taken the first step on your climate journey!</string>
     <string name="let_s_creat">Lets create your profile</string>
     <string name="assistive_t">Password must be at least 8 characters</string>
+    <string name="welcome_bac">Welcome back!</string>
+    <string name="don_t_have_">Dont have an account?</string>
+    <string name="regTxt">Register</string>
+    <string name="let_s_get_t">Your car</string>
+    <string name="in_order_to">In order to calculate your carbon footprint, we need to know which car you drive.</string>
+    <string name="brand">Brand</string>
+    <string name="car_model">Car Model</string>
+    <string name="km">How many kilometers do you approximately drive per year?</string>
+    <string name="goal_settin">Goal Setting</string>
+    <string name="co2">Your Current CO2  Consumption: </string>
+    <string name="goalvalue">How much percent you want to reduce: </string>
+
 
 </resources>

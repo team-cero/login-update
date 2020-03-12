@@ -23,7 +23,7 @@ class SubActivity : AppCompatActivity(){
 
         //seekbar for goal setting
         // seekbar max
-        seekbar.setProgress(0)
+        seekbar.setProgress(100)
         // seekbar min
         seekbar.setMax(100)
 
