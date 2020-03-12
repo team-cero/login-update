@@ -6,68 +6,116 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/name_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="CO2 Culc"
-        android:textAlignment="center"
-        android:textColor="@android:color/black"
-        android:textColorHighlight="@android:color/background_light"
-        android:textSize="36sp" />
+        android:id="@+id/let_s_get_t"
+        android:layout_width="227dp"
+        android:layout_height="114dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/let_s_get_t"
+        android:textAppearance="@style/let_s_get_t" />
 
     <TextView
-        android:id="@+id/textView9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Please Enter Your Car Model and Fuel Type:"
-        android:textColor="@android:color/black"
-        android:textSize="30sp" />
+        android:id="@+id/in_order_to"
+        android:layout_width="292dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="1sp"
+        android:text="@string/in_order_to"
+        android:textAppearance="@style/in_order_to"
+        android:translationY="-0.47sp" />
+
 
     <TextView
-        android:id="@+id/Brand"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Brand"
-        android:textSize="24sp" />
+        android:id="@+id/brand"
+        android:layout_width="65dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="0dp"
+        android:gravity="top"
+        android:lineSpacingExtra="5sp"
+        android:text="@string/brand"
+        android:textAppearance="@style/brand"
+        android:translationY="-2.47sp" />
 
     <Spinner
         android:id="@+id/spinner1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp" />
+
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Model"
-        android:textSize="24sp" />
+        android:id="@+id/car_model"
+        android:layout_width="70dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="40dp"
+        android:gravity="top"
+        android:lineSpacingExtra="5sp"
+        android:text="@string/car_model"
+        android:textAppearance="@style/car_model"
+        android:translationY="-2.47sp" />
 
     <Spinner
         android:id="@+id/spinner2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp" />
 
     <TextView
-        android:id="@+id/textView8"
-        android:layout_width="match_parent"
+        android:id="@+id/km"
+        android:layout_width="210dp"
         android:layout_height="wrap_content"
-        android:text="How many Km do you approxibately drive per week?"
-        android:textColor="@android:color/black"
-        android:textSize="30sp" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="40dp"
+        android:gravity="top"
+        android:lineSpacingExtra="5sp"
+        android:text="@string/km"
+        android:textAppearance="@style/km"
+        android:translationY="-2.47sp" />
 
     <EditText
         android:id="@+id/distance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
         android:ems="10"
         android:inputType="number" />
 
+
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="310dp"
         android:layout_height="wrap_content"
-        android:text="Calculate"
-        android:textColor="@color/colorAccent"
-        android:textSize="24sp" />
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:text="Calculate My Footprint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+
 
 </LinearLayout>

@@ -8,11 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     <style name="awesome_">
-
         <item name="android:textSize">48sp</item>
-
         <item name="android:textColor">#000000</item>
-
     </style>
     <style name="you_ve_alre">
         <item name="android:textSize">14sp</item>
@@ -30,6 +27,48 @@
         <item name="android:letterSpacing">0.03</item>
         <item name="android:textColor">#99000000</item>
     </style>
-
+    <style name="welcome_bac">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="don_t_have_">
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:textColor">#737373</item>
+    </style>
+    <style name="regTxt"><item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.09</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="let_s_get_t"><item name="android:textSize">34sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="in_order_to"><item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="brand"><item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="car_model"><item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="km"><item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="goal_settin"><item name="android:textSize">34sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="co2"><item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="goalvalue"><item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#000000</item>
+    </style>
 
 </resources>
