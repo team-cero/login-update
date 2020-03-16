@@ -1,9 +1,24 @@
 <resources>
+    <string name="app_name">Introduction</string>
+    <string name="welcome_to">WELCOME TO</string>
+    <string name="cero_app">Cero App</string>
+    <string name="do_you_want">Do you want to reduce your carbon footprint? We will help you with it!</string>
+    <string name="skip">SKIP</string>
+    <string name="next">Next</string>
 
-    <string name="app_name">Cero App</string>
-    <string name="co2_consumption">CO2 Consumption</string>
-    <string name="goal_setting">Goal Setting</string>
-    <string name="back">Back</string>
+    <!-- page2 -->
+    <string name="calculate_e">Calculate Easily</string>
+    <string name="your_cars_c">Your cars` carbon footprint with \ntrustful data from ADAC.</string>
+
+    <!-- page3-->
+    <string name="set_your_go">Set your goal</string>
+    <string name="we_will_sho">We will show you your emissions compared to the average.\nYou can choose individually how much you would like to reduce.</string>
+
+    <!-- page4 -->
+    <string name="get_rewarde">Get rewarded</string>
+    <string name="if_you_achi">If you achieve your personal goal you \ncan coose between attractive \neco-friendly rewards.</string>
+
+    <!-- calculation -->
     <string-array name="array1">
         <item>Hyundai</item>
         <item>Opel</item>
@@ -37,6 +52,7 @@
         <item>Karoq 1.5 TSI ACT Style DSG</item>
     </string-array>
 
+    <!-- goal setting -->
     <string name="sub">Goal Settings</string>
     <string name="from_main">Your Car\'s CO2 consumption</string>
     <string name="awesome_">Awesome!</string>

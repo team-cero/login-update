@@ -1,121 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/let_s_get_t"
-        android:layout_width="227dp"
-        android:layout_height="114dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="92dp"
-        android:layout_marginTop="56dp"
-        android:gravity="center_horizontal|top"
-        android:lineSpacingExtra="0sp"
-        android:text="@string/let_s_get_t"
-        android:textAppearance="@style/let_s_get_t" />
-
-    <TextView
-        android:id="@+id/in_order_to"
-        android:layout_width="292dp"
-        android:layout_height="40dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginBottom="20dp"
-        android:gravity="center_horizontal|top"
-        android:lineSpacingExtra="1sp"
-        android:text="@string/in_order_to"
-        android:textAppearance="@style/in_order_to"
-        android:translationY="-0.47sp" />
-
-
-    <TextView
-        android:id="@+id/brand"
-        android:layout_width="65dp"
-        android:layout_height="24dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="170dp"
-        android:layout_marginTop="0dp"
-        android:gravity="top"
-        android:lineSpacingExtra="5sp"
-        android:text="@string/brand"
-        android:textAppearance="@style/brand"
-        android:translationY="-2.47sp" />
-
-    <Spinner
-        android:id="@+id/spinner1"
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="50dp" />
-
-
-    <TextView
-        android:id="@+id/car_model"
-        android:layout_width="70dp"
-        android:layout_height="24dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="170dp"
-        android:layout_marginTop="40dp"
-        android:gravity="top"
-        android:lineSpacingExtra="5sp"
-        android:text="@string/car_model"
-        android:textAppearance="@style/car_model"
-        android:translationY="-2.47sp" />
-
-    <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="50dp" />
-
-    <TextView
-        android:id="@+id/km"
-        android:layout_width="210dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="40dp"
-        android:gravity="top"
-        android:lineSpacingExtra="5sp"
-        android:text="@string/km"
-        android:textAppearance="@style/km"
-        android:translationY="-2.47sp" />
-
-    <EditText
-        android:id="@+id/distance"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="50dp"
-        android:ems="10"
-        android:inputType="number" />
-
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="310dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="50dp"
-        android:text="Calculate My Footprint"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.462" />
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
