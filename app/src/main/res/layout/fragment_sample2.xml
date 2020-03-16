@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sample2Fragment">
+
+    <!-- Calculate Easily -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/calculate_e"
+            android:layout_width="251dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="563dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="0sp"
+            android:text="@string/calculate_e"
+            android:textAppearance="@style/calculate_e" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/slider_intr"
+            android:layout_width="110dp"
+            android:layout_height="8dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="727dp"
+            android:background="#00000000" />
+
+    </LinearLayout>
+
+    <!-- Your cars` carbon footprint with trustful data from ADAC. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/your_cars_c"
+            android:layout_width="252dp"
+            android:layout_height="33dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="79dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="622dp"
+            android:text="@string/your_cars_c"
+            android:textAppearance="@style/your_cars_c"
+            android:lineSpacingExtra="1sp"
+            android:translationY="-0.47sp"
+            android:gravity="center_horizontal|top"
+            />
+    </LinearLayout>
+
+    <!-- Slider Intro -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
