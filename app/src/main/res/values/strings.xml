@@ -6,6 +6,8 @@
     <string name="skip">SKIP</string>
     <string name="next">Next</string>
 
+    <string name="img_description">mainicon</string>
+
     <!-- page2 -->
     <string name="calculate_e">Calculate Easily</string>
     <string name="your_cars_c">Your cars` carbon footprint with \ntrustful data from ADAC.</string>
