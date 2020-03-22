@@ -18,31 +18,37 @@ class Timeline : AppCompatActivity() {
         setContentView(R.layout.activity_timeline)
 
         //game challenge
+        var btnGame = findViewById<Button>(R.id.btnGame)
+        btnGame.setOnClickListener {
+            val intent1 = Intent(application, GameActivity::class.java)
+            startActivity(intent1)
+        }
+
 
         //calculator
         var btnCalc = findViewById<Button>(R.id.btnCalc)
         btnCalc.setOnClickListener {
-            val intent = Intent(application, CalculationActivity::class.java)
-            startActivity(intent)
+            val intent2 = Intent(application, CalculationActivity::class.java)
+            startActivity(intent2)
         }
 
         //goal setting
         var btnGoal= findViewById<Button>(R.id.btnGoal)
         btnGoal.setOnClickListener {
-            val intent2 = Intent(application, GoalSettingActivity::class.java)
-            startActivity(intent2)
+            val intent3 = Intent(application, GoalSettingActivity::class.java)
+            startActivity(intent3)
         }
 
         //record
+        /*
         var btnReacord= findViewById<Button>(R.id.btnRecord)
-        btnGoal.setOnClickListener {
+        btnReacord.setOnClickListener {
             //val intent = Intent(application, RecordActivity::class.java)
             //startActivity(intent)
         }
-
+        */
          //logout
         var btnLogOut = findViewById<Button>(R.id.btnLogout)
-
         btnLogOut.setOnClickListener{ view ->
             showMessage(view, "Logging Out...")
             signOut()
