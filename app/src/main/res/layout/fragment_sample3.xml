@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sample3Fragment">
+
+    <!-- icon -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/appmain_icon"
+            android:src="@drawable/appmain_icon"
+            android:layout_width="288dp"
+            android:layout_height="288dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="200dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/img_description" />
+    </LinearLayout>
+
+    <!-- Set your goal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/set_your_go"
+            android:layout_width="251dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="564dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="0sp"
+            android:text="@string/set_your_go"
+            android:textAppearance="@style/set_your_go" />
+    </LinearLayout>
+
+
+    <!-- We will show you your emissions compared to the average. You can choose individually how much you would like to reduce. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/we_will_sho"
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="79dp"
+            android:layout_marginTop="623dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="1sp"
+            android:text="@string/we_will_sho"
+            android:textAppearance="@style/we_will_sho"
+            android:translationY="-0.47sp" />
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
