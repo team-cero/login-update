@@ -1,4 +1,4 @@
-# CulcToGoalset
+# CalcToGoalset
 
 ### Developing Environment Info
 - Android Studio 3.5.3
