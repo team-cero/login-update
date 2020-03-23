@@ -1,4 +1,4 @@
-# CulcToGoalset
+# Cero App
 
 ### Developing Environment Info
 - Android Studio 3.5.3
